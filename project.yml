@@ -1,0 +1,74 @@
+---
+settings:
+  name: Ransomware Protection
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: es-es,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,fr-fr
+sidebar:
+  entries:
+  - title: Documentos de protección contra ransomware
+    url: "/index.html"
+  - title: Notas de la versión
+    url: "/whats-new.html"
+  - title: Manos a la obra
+    entries:
+    - title: Obtenga más información sobre la protección contra ransomware
+      url: "/concept-ransomware-protection.html"
+    - title: Supervise las alertas de ransomware en el Centro de notificación
+      url: "/task-monitor-ransomware-alerts.html"
+  - title: Use protección contra ransomware
+    entries:
+    - title: Gestione las recomendaciones sobre seguridad cibernética para sus datos
+      url: "/task-analyze-ransomware-data.html"
+    - title: Gestione las políticas de datos críticos de su negocio
+      url: "/task-select-business-critical-policies.html"
+  - title: Conocimiento y apoyo
+    entries:
+    - title: Regístrese para recibir soporte
+      url: "/task-support-registration.html"
+    - title: Obtenga ayuda
+      url: "/task-get-help.html"
+  - title: Avisos legales
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Manos a la obra
+    links:
+    - title: Obtenga más información sobre la protección contra ransomware
+      url: concept-ransomware-protection.html
+    - title: Novedades
+      url: whats-new.html
+  - title: Gestionar las recomendaciones de seguridad cibernética
+    links:
+    - title: Vea los principales repositorios de datos por sensibilidad de los datos
+      url: task-analyze-ransomware-data.html#top-data-repositories-by-data-sensitivity
+    - title: Permite ver los usuarios que se han agregado a grupos de administradores
+        de dominio
+      url: task-analyze-ransomware-data.html#domain-administrator-group-control
+    - title: Ver datos listados por permisos abiertos
+      url: task-analyze-ransomware-data.html#data-listed-by-types-of-open-permissions
+    - title: Ver datos listados por archivos cifrados
+      url: task-analyze-ransomware-data.html#data-listed-by-encrypted-files
+    - title: Vea cómo sus sistemas ONTAP están protegidos contra el ransomware
+      url: task-analyze-ransomware-data.html#status-of-ontap-systems-hardening
+    - title: Seleccione las políticas de datos críticos de su empresa
+      url: task-select-business-critical-policies.html
+  - title: Blogs y comunidad
+    links:
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: Casos prácticos de protección contra ransomware
+      url: https://bluexp.netapp.com/ransomware-protection
+    - title: Blog de BlueXP
+      url: https://bluexp.netapp.com/blog
+    - title: Seminarios web sobre el cloud
+      url: https://bluexp.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Toda la documentación de BlueXP

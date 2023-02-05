@@ -1,0 +1,167 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ransomware protection' 
+summary: Conozca las novedades de la protección de ransomware. 
+---
+= Novedades de la Protección contra Ransomware
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Conozca las novedades de la protección de ransomware.
+
+
+
+== 5 de febrero de 2023
+
+
+
+=== Capacidad de definir las políticas que identifican los datos que considera como críticos para el negocio
+
+Se ha añadido una nueva página de datos vitales para el negocio a la protección de ransomware. Esta página le permite ver todas las políticas que se han definido en Cloud Data Sense. Puede seleccionar las políticas que identifican datos que son cruciales para su empresa, de modo que la consola de protección de ransomware y otros paneles de ransomware reflejen posibles problemas en función de sus datos más importantes.
+
+Aparecerá una nueva acción recomendada denominada "Configurar los datos críticos de su negocio" en el panel acciones recomendadas si no ha activado ninguna de estas políticas para el servicio de protección contra ransomware.
+
+https://docs.netapp.com/us-en/cloud-manager-ransomware/task-select-business-critical-policies.html["Obtenga más información acerca de la página datos críticos para el negocio"^].
+
+
+
+=== La protección contra ransomware se ha movido de la categoría Protección a la categoría Gobierno
+
+Ahora usted accede a este servicio desde el menú de navegación de la izquierda de BlueXP seleccionando *Gobierno > Protección contra Ransomware*.
+
+
+
+== 9 de enero de 2023
+
+
+
+=== Se ha añadido soporte para recibir alertas de protección contra ransomware por correo electrónico y en el Centro de notificación
+
+La protección contra ransomware se ha integrado en el servicio de notificación de BlueXP. Puede mostrar notificaciones de protección contra ransomware haciendo clic en la campana de notificación de la barra de menús de BlueXP. También puede configurar BlueXP para que envíe notificaciones por correo electrónico como alertas, de forma que pueda ser informado de la actividad importante del sistema incluso cuando no haya iniciado sesión en el sistema. El correo electrónico puede enviarse a todos los destinatarios que tengan en cuenta las alertas de ransomware. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-monitor-ransomware-alerts.html["Vea cómo"].
+
+
+
+== 11 de diciembre de 2022
+
+
+
+=== Se han añadido nuevas acciones recomendadas al panel de puntuación de protección de Ransomware
+
+Ahora se muestran dos acciones nuevas recomendadas para los siguientes problemas de protección contra ransomware que se encuentran en sus sistemas de almacenamiento:
+
+* _Reducir los permisos para los elementos sensibles de X con amplios permisos_ - se han encontrado archivos sensibles que tienen permisos abiertos en sus orígenes de datos
+* _Patch X CVE abiertas en las fuentes de datos y_ - se han encontrado CVE sin parche en sus sistemas ONTAP
+
+
+Puede seleccionar estas acciones en la interfaz de usuario y, a continuación, seguir el flujo de trabajo para resolver los problemas subyacentes. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#list-of-recommended-actions["Consulte la lista de todas las acciones recomendadas"].
+
+
+
+== 13 de noviembre de 2022
+
+
+
+=== Nuevos paneles para mostrar su puntuación general de protección contra Ransomware y acciones recomendadas
+
+El panel _Ransomware Protection Score_ muestra la puntuación general y las áreas de ciberseguridad donde existen problemas potenciales. El panel _Recommended Actions_ enumera las acciones potenciales que puede tomar para mejorar su resistencia a un ataque de ransomware y proporciona un vínculo para investigar los problemas de manera que pueda aplicar las acciones cuando sea necesario. Estos dos paneles nuevos trabajan juntos para identificar cómo se resisten a un ataque de ransomware y qué puede hacer para mejorar su puntuación. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#ransomware-protection-score-and-recommended-actions["Más información aquí"^].
+
+
+
+== 6 de septiembre de 2022
+
+
+
+=== Nuevo panel para mostrar los incidentes de ransomware detectados en los clústeres
+
+El panel _Ransomware Incidents_ muestra ataques de ransomware que han ocurrido en sus sistemas. La compatibilidad actual es con clústeres de ONTAP en las instalaciones que ejecutan protección de ransomware autónoma (ARP). ARP utiliza el análisis de cargas de trabajo en entornos NAS (NFS y SMB) para detectar de forma proactiva y advertir sobre actividades anormales que pueden indicar un ataque de ransomware. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#ransomware-incidents-detected-on-your-systems["Más información aquí"^].
+
+
+
+== 7 de agosto de 2022
+
+
+
+=== Nuevo panel para mostrar vulnerabilidades de seguridad en los clústeres
+
+El panel _vulnerabilidades del sistema de almacenamiento_ muestra el número total de vulnerabilidades de alta, media y baja seguridad que la herramienta Asesor digital de Active IQ ha encontrado en cada uno de los clústeres de ONTAP. Se deben prestar servicios de inmediato a las grandes vulnerabilidades para asegurarse de que sus sistemas no estén abiertos a ataques. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#storage-system-vulnerabilities["Vaya aquí para obtener más información"^].
+
+
+
+=== Nuevo panel para mostrar archivos digitalizables
+
+El panel _Critical data imnutability_ muestra el número de elementos de sus entornos de trabajo que se están protegiendo contra las modificaciones y eliminaciones en almacenamiento WORM mediante la tecnología ONTAP SnapLock. Esto le permite ver qué parte de sus datos tiene una copia inalterable para que pueda comprender mejor sus planes de backup y recuperación contra ransomware. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#data-in-your-volumes-that-are-being-protected-using-snaplock["Vaya aquí para obtener más información"^].
+
+
+
+== 12 de junio de 2022
+
+
+
+=== Ahora se realiza un seguimiento del estado de auditoría del sistema de archivos NAS para las máquinas virtuales de almacenamiento de ONTAP
+
+Se añade una alerta al _Cyber resilence Map_ si menos del 40% de los equipos virtuales de almacenamiento del entorno de trabajo tienen activada la auditoría del sistema de archivos. Puede ver el número exacto de SVM que no realizan un seguimiento y registran los eventos de SMB y NFS en un registro de auditoría en el panel _Harden su entorno ONTAP_. Luego puede decidir si habilitar la auditoría de esas SVM.
+
+
+
+=== Ahora las alertas se muestran cuando el antivirus ransomware integrado no está activo en sus volúmenes
+
+Esta información se ha notificado para sistemas ONTAP en las instalaciones en el panel _Harden Your ONTAP Environments_ anteriormente, Pero ahora se informa de una alerta en el _Cyber resilence Map_ cuando la función anti-ransomware integrada está activada en menos del 40 % de los volúmenes para que pueda ver esta información en el Panel.
+
+
+
+=== Ahora se realiza un seguimiento de FSX para sistemas ONTAP para habilitar copias Snapshot de volumen
+
+El panel _Harden ONTAP Environments_ ahora proporciona el estado de las copias de Snapshot para los volúmenes en el FSX para los sistemas ONTAP. Cuando menos del 40% de los volúmenes están protegidos por instantáneas, también recibirá una alerta en el _Cyber resilence Map_.
+
+
+
+== 11 de mayo de 2022
+
+
+
+=== Nuevo panel para realizar un seguimiento del refuerzo en seguridad de sus entornos de ONTAP
+
+Un nuevo panel _endurecer los entornos de ONTAP_ proporciona el estado de determinadas configuraciones en los sistemas ONTAP que realizan un seguimiento de la seguridad de la implementación según la https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["Guía de fortalecimiento de la seguridad de NetApp para sistemas ONTAP"^] y a la https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Función ONTAP antiransomware"^] que detecta y advierte de la actividad anormal de forma proactiva.
+
+Puede revisar las recomendaciones y decidir cómo quiere solucionar los posibles problemas. Puede seguir los pasos para cambiar la configuración de los clústeres, aplazar los cambios otra vez o ignorar la sugerencia. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-ontap-systems-hardening["Vaya aquí para obtener más información"].
+
+
+
+=== Nuevo panel para mostrar cómo se protegen las diferentes categorías de datos mediante Cloud Backup
+
+Este nuevo panel _Backup Status_ muestra la capacidad de realizar copias de seguridad de sus categorías más importantes en caso de que necesite recuperarse debido a un ataque de ransomware. Estos datos son una representación visual del número de elementos de una categoría específica de un entorno a los que Cloud Backup realiza backups. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#backup-status-of-your-critical-business-data["Vaya aquí para obtener más información"].
+
+
+
+== 15 de marzo de 2022
+
+
+
+=== Nuevo panel para realizar el seguimiento del estado de los permisos de los datos críticos de su empresa
+
+Un nuevo panel _Análisis de permisos de datos críticos para el negocio_ muestra el estado de los permisos de los datos que son críticos para su negocio. De esta forma, podrá evaluar rápidamente qué nivel de protección están protegiendo los datos esenciales de su negocio. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-permissions-on-your-critical-business-data["Vaya aquí para obtener más información"].
+
+
+
+=== El área Open Permissions ahora incluye cuentas de OneDrive y SharePoint
+
+El área Open Permissions de la consola de protección de ransomware ahora incluye los permisos existentes para los archivos que se están analizando en cuentas de OneDrive y cuentas de SharePoint.
+
+
+
+== 9 de febrero de 2022
+
+
+
+=== Nuevo servicio de protección contra ransomware
+
+El nuevo servicio de protección contra ransomware le permite ver información relevante sobre la ciberseguridad y evaluar la resiliencia de sus datos a un ataque cibernético. También incluye una lista de alertas y soluciones para proteger los datos.
+
+link:concept-ransomware-protection.html["Obtenga más información sobre este nuevo servicio"].

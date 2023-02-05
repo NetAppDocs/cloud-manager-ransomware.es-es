@@ -1,0 +1,16 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: The Ransomware Protection service enables you to view relevant information about cybersecurity and assess how resilient your data is to a cyber attack. 
+summary: El servicio de protección contra ransomware le permite ver información relevante sobre la ciberseguridad y evaluar la resiliencia de sus datos a un ataque cibernético. 
+---
+= Documentación de ransomware Protection
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

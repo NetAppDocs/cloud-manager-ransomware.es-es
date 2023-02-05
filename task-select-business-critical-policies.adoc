@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task-select-business-critical-policies.html 
+keywords: ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, business critical data, policies 
+summary: Las políticas de datos vitales para el negocio identifican los datos que considera como críticos para su empresa. Una vez que haya definido estas políticas y las haya activado en protección de ransomware, el panel de control y otros paneles de ransomware reflejan posibles problemas en función de sus datos más importantes. 
+---
+= Gestione las políticas de datos críticos de su negocio
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Las políticas de datos vitales para el negocio identifican los datos que considera como críticos para su empresa. Una vez que haya definido estas políticas y las haya activado en protección de ransomware, el panel de control y otros paneles de ransomware reflejan posibles problemas en función de sus datos más importantes.
+
+Los otros paneles que utilizan las directivas definidas como críticas incluyen:
+
+* Acciones recomendadas
+* Panel de invariabilidad de datos esenciales para el negocio
+* Panel de análisis de permisos de datos críticos para el negocio
+
+
+Puede mostrar la página _Business Critical Data Policies_ haciendo clic en la ficha *datos críticos para el negocio*. También puede mostrar esta página desde un vínculo en los demás paneles enumerados anteriormente.
+
+image:screenshot_critical_data_policies.png["Una captura de pantalla que muestra la página de datos críticos para el negocio con una política seleccionada como crítica para el negocio."]
+
+La página datos críticos para el negocio muestra todas las políticas que se han definido en Cloud Data Sense. Esto incluye todas las políticas predefinidas de BlueXP y todas las políticas personalizadas que ha creado la organización. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#controlling-your-data-using-policies["Más información sobre las políticas de detección de datos"^].
+
+
+
+== Seleccione políticas que identifiquen los datos críticos de su negocio
+
+Si sabe que una de las políticas existentes proporciona resultados que identifican datos que son cruciales para su empresa, puede seleccionar esa política. Solo tiene que mover el control deslizante de la columna "es crítico" a la derecha, como se muestra para la última política de la figura anterior. Esta acción indica al servicio de protección de ransomware que use los datos devueltos de esta política en algunos paneles de ransomware.
+
+Puede eliminar las políticas de que se consideren "críticas para el negocio" moviendo el control deslizante a la posición Off. Esto no elimina la política, simplemente la elimina de ser utilizada por el servicio de protección de Ransomware.
+
+Si no está seguro de si una directiva de detección de datos existente devuelve resultados que identifican datos críticos para su organización, puede hacer clic en el botón *investigar* para mostrar los filtros que se utilizan para consultar sus datos y ver los resultados de la directiva en la página Investigación de detección de datos.
+
+Si está buscando una política específica o para cada tipo de políticas específicas, puede ordenar, filtrar y buscar en esta página.
+
+
+
+== Gestionar políticas
+
+Haga clic en *Crear directiva* para crear nuevas directivas que identifiquen los datos críticos del negocio. Esta acción le lleva a la página Investigación de detección de datos para que pueda crear la directiva. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#creating-custom-policies["Más información acerca de la creación de políticas"^].
+
+Haga clic en image:screenshot_horizontal_more_button.gif["botón de tres puntos"]> *Editar* para una directiva existente si desea editar la directiva. La página Investigación de detección de datos se abre para que pueda personalizar los resultados utilizando filtros adicionales para la directiva. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#editing-policies["Obtenga más información sobre la edición de directivas"^].
+
+image:screenshot_add_edit_critical_data_policies.png["Una captura de pantalla que muestra el botón Crear directiva y el botón Editar directiva para crear y editar directivas."]
