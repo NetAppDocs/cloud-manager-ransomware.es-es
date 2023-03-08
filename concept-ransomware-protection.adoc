@@ -97,6 +97,7 @@ En un alto nivel, la protección contra Ransomware funciona de la siguiente mane
 . La protección de ransomware recopila información de sus sistemas de almacenamiento, Cloud Data Sense, Cloud Backup y otros recursos de BlueXP y NetApp para completar la consola de protección de ransomware.
 . Usted utiliza el panel de protección contra ransomware para obtener una descripción general de la protección de sus sistemas.
 . Utilice las herramientas de generación de informes proporcionadas para ayudarle en sus esfuerzos de protección del almacenamiento cibernético.
+. Después de un ataque, se usa la consola de recuperación de Ransomware para restaurar los datos a un estado seguro.
 
 
 

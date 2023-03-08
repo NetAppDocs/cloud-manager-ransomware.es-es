@@ -1,0 +1,48 @@
+---
+sidebar: sidebar 
+permalink: task-ransomware-recovery.html 
+keywords: ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, recovery 
+summary: El Panel de recuperación de ransomware proporciona opciones para recuperar datos que pueden haber sido infectados por ransomware. Esto le ayuda a hacer que sus sistemas vuelvan a estar en funcionamiento muy rápidamente. 
+---
+= Se está recuperando de un ataque de ransomware
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+El Panel de recuperación de ransomware proporciona opciones para recuperar datos que pueden haber sido infectados por ransomware. Esto le ayuda a hacer que sus sistemas vuelvan a estar en funcionamiento muy rápidamente.
+
+Si el panel incidentes de ransomware del panel de protección contra ransomware indica que un volumen, o volúmenes, han sido infectados por ransomware, puede hacer clic en el botón *recuperar* para intentar resolver el problema.
+
+En este momento, el panel de recuperación de ransomware permite reemplazar el volumen infectado con una copia snapshot que no se ha afectado por el ransomware.
+
+.Pasos
+. En el panel incidentes de ransomware, haga clic en *recuperar* para un volumen que ha sido infectado por ransomware.
++
+El panel recuperación de ransomware muestra el nombre del volumen.
+
++
+image:screenshot_ransomware_recovery_dashboard.png["Una captura de pantalla del panel de recuperación de protección de ransomware."]
+
+. Haga clic en *Mostrar instantáneas* para ver la lista de instantáneas disponibles para ese volumen.
++
+image:screenshot_ransomware_recovery_select_snap.png["Captura de pantalla de las copias Snapshot disponibles para recuperar el volumen dañado."]
+
+. Seleccione una instantánea que no tenga datos cifrados y haga clic en *Recover*.
+. En el cuadro de diálogo "recuperar datos de la instantánea seleccionada", haga clic en *Sí* para recuperar los datos de la instantánea.
++
+Puede ver el estado de recuperación de la copia de Snapshot y se puede ver cuando esta ha restaurado el volumen dañado.
+
++
+image:screenshot_ransomware_recovery_snap_complete.png["Una captura de pantalla que muestra que la snapshot ha recuperado el volumen dañado."]
+
+
+
+.Resultado
+El volumen dañado se recuperó mediante una copia de Snapshot creada anteriormente.
+
+Si la operación de restauración se realizó desde una copia snapshot que no era la más reciente, después de la restauración, se eliminarán todas las copias snapshot más recientes del sistema ONTAP porque se sospeche que también están dañadas (como se muestra en la captura de pantalla anterior).

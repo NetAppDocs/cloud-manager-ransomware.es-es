@@ -18,6 +18,16 @@ Conozca las novedades de la protección de ransomware.
 
 
 
+== 7 de marzo de 2023
+
+
+
+=== Se ha agregado un nuevo panel de recuperación de Ransomware para ayudar a recuperar su sistema de un ataque
+
+El Panel de recuperación de ransomware proporciona opciones para recuperar datos que pueden haber sido infectados por ransomware. Esto le ayuda a hacer que sus sistemas vuelvan a estar en funcionamiento muy rápidamente. En este momento, la acción de recuperación le permite reemplazar un volumen dañado por una copia de SnapVault que no se vio afectada por el ransomware. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-ransomware-recovery.html["Leer más"].
+
+
+
 == 5 de febrero de 2023
 
 

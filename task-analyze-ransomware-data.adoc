@@ -141,13 +141,13 @@ Haga clic en el image:button_down_caret.png["botón de flecha abajo"] para expan
 
 image:screenshot_ransomware_incidents_expanded.png["Una captura de pantalla que muestra el panel incidentes de Ransomware expandido para mostrar acciones automáticas para sus volúmenes."]
 
-Puede hacer clic en el botón *resolver* para eliminar la incidencia de la interfaz de usuario. Aparecerá un cuadro de diálogo para ver si el incidente informado fue un incidente real de ransomware o no. Haga clic en *Sí* si el problema era un incidente real de ransomware. Haga clic en *no* si el problema no era un incidente real de ransomware. Esta ayuda ARP a comprender incidentes reales de falsos positivos en sus volúmenes.
+Puede hacer clic en el botón *recuperar* si desea intentar recuperarse del ataque de ransomware. De este modo, se une al panel de recuperación de protección de ransomware, en el que puede reemplazar el volumen con una copia Snapshot anterior que no se ha visto afectada por el ransomware. link:task-ransomware-recovery.html["Consulte cómo utilizar el panel de recuperación"].
 
 .Requisitos previos
 * Debe tener un clúster de ONTAP en las instalaciones que ejecute ONTAP 9.11 o superior.
 * Debe tener instalada la licencia *Anti_ransomware* (ONTAP 9.11.1 +) en al menos un nodo del clúster.
-* La protección de ransomware autónoma de NetApp (ARP) debe haber estado habilitada durante un período de aprendizaje inicial (también conocido como "ejecución seca") durante 30 días antes de cambiar al "modo activo", de modo que tiene tiempo suficiente para evaluar las características de la carga de trabajo y notificar correctamente los ataques sospechosos de ransomware.
 * Cada volumen que desea proteger debe tener ARP habilitado. https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html["Vea cómo habilitar la protección autónoma de Ransomware"^].
+* La protección de ransomware autónoma de NetApp (ARP) debe haber estado habilitada durante un período de aprendizaje inicial (también conocido como "ejecución seca") durante 30 días antes de cambiar al "modo activo", de modo que tiene tiempo suficiente para evaluar las características de la carga de trabajo y notificar correctamente los ataques sospechosos de ransomware.
 
 
 
